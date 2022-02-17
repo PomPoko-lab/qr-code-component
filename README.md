@@ -32,7 +32,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 The main challenge I came across was forcing the footer to the bottom of the page.
 
-```cs
+```css
 .footer-class {
   position: fixed;
   bottom: 0;
@@ -42,3 +42,19 @@ The main challenge I came across was forcing the footer to the bottom of the pag
 ```
 
 After some peer reviews, flexbox was implemented into the body (or main) to better format the component.
+
+My main challenge here was implementing the width of the card to be calculated by flex-basis. My conclusion was to addd `min-width: 0;` to the card element itself.
+
+```css
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  flex: 0 0 350px;
+  min-width: 0;
+}
+```

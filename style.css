@@ -31,7 +31,8 @@ main {
 
 .card {
   background-color: hsl(0, 0%, 100%);
-  width: 350px;
+  flex: 0 0 350px;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   padding: 1em;
@@ -40,8 +41,6 @@ main {
 }
 
 img {
-  width: auto;
-  height: auto;
   border-radius: 1em;
   margin-bottom: 0.5em;
 }
