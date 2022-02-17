@@ -19,8 +19,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/qr-code-component-with-flexbox-hpl2Uh1SS)
-- Live Site URL: [Add live site URL here](https://pompoko-lab.github.io/qr-code-component/)
+- Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-with-flexbox-hpl2Uh1SS](https://www.frontendmentor.io/solutions/qr-code-component-with-flexbox-hpl2Uh1SS)
+- Live Site URL: [https://pompoko-lab.github.io/qr-code-component/](https://pompoko-lab.github.io/qr-code-component/)
 
 ### Built with
 
