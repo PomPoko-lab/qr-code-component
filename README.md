@@ -43,7 +43,7 @@ The main challenge I came across was forcing the footer to the bottom of the pag
 
 After some peer reviews, flexbox was implemented into the body (or main) to better format the component.
 
-My main challenge here was implementing the width of the card to be calculated by flex-basis. My conclusion was to addd `min-width: 0;` to the card element itself.
+My main challenge here was implementing the width of the card to be calculated by flex-basis. My conclusion was to add `min-width: 0;` to the card element itself.
 
 ```css
 main {
