@@ -40,3 +40,5 @@ The main challenge I came across was forcing the footer to the bottom of the pag
   width: 100%;
 }
 ```
+
+After some peer reviews, flexbox was implemented into the body (or main) to better format the component.
