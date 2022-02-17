@@ -22,10 +22,17 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
 .card {
   background-color: hsl(0, 0%, 100%);
-  margin: 100px auto;
-  width: 350px;
+  flex: 0 0 350px;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   padding: 1em;
@@ -34,8 +41,6 @@ body {
 }
 
 img {
-  width: auto;
-  height: auto;
   border-radius: 1em;
   margin-bottom: 0.5em;
 }
@@ -49,7 +54,7 @@ header {
 
 p {
   color: hsl(220, 15%, 55%);
-  font-size: 16px;
+  font-size: 1em;
   padding: 1em;
   line-height: 1.5;
   margin-bottom: 0.5em;
